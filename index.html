@@ -1,0 +1,198 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>No Utility Coin</title>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>document.addEventListener("DOMContentLoaded", () => AOS.init({ duration: 1000 }));</script>
+  <style>
+
+    * {
+      box-sizing: border-box;
+    }
+    html, body {
+      max-width: 100%;
+      overflow-x: hidden;
+    }
+
+    body {
+      margin: 0;
+      background: black url('images/watermark.jpg') center center fixed;
+      background-size: cover;
+      color: white;
+      font-family: 'Times New Roman', serif;
+      overflow-x: hidden;
+    }
+    .title-block {
+      text-align: center;
+      padding: 60px 20px 20px;
+    }
+    .title-block h1 {
+      font-size: 90px;
+      text-shadow: 0 0 8px white;
+    }
+    .title-block h2 {
+      font-size: 30px;
+      font-weight: normal;
+    }
+    .intro {
+      margin: 40px auto 60px;
+      max-width: 700px;
+      padding: 20px;
+      background: rgba(255, 255, 255, 0.05);
+      font-size: 24px;
+      font-family: 'Georgia', serif;
+      text-align: center;
+      line-height: 1.7;
+    }
+    .intro span.final-line {
+      color: gold;
+      font-weight: bold;
+    }
+    .scroll {
+      width: 65%;
+      margin: 0 auto;
+      margin-bottom: 0;
+      display: block;
+      mask-image: linear-gradient(to bottom, transparent 0%, black 10%, black 90%, transparent 100%);
+    }
+    .caption {
+      font-size: 38px;
+      text-align: center;
+      padding: 40px 20px;
+      margin-bottom: 60px;
+    }
+    .footer {
+      text-align: center;
+      padding: 40px 20px;
+      font-size: 18px;
+      background: black;
+    }
+    .floating-btn {
+      position: fixed;
+      z-index: 999;
+      bottom: 20px;
+      right: 20px;
+      background: #1DA1F2;
+      color: white;
+      font-size: 18px;
+      width: 45px;
+      height: 45px;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-weight: bold;
+      font-family: sans-serif;
+      text-decoration: none;
+      transition: transform 0.3s ease;
+    }
+    .floating-btn:hover {
+      transform: scale(1.1);
+    }
+    .noise {
+      pointer-events: none;
+      position: fixed;
+      z-index: 999;
+      top: 0; left: 0;
+      width: 100%;
+      height: 100%;
+      background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="400" height="400"><filter id="n" x="0" y="0"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="4" stitchTiles="stitch" /></filter><rect width="100%" height="100%" filter="url(%23n)" opacity="0.03"/></svg>');
+      animation: grain 1s steps(10) infinite;
+      z-index: 1;
+    }
+    @keyframes grain {
+      0% { transform: translate(0, 0); }
+      10% { transform: translate(-1px, -1px); }
+      20% { transform: translate(-1px, 1px); }
+      30% { transform: translate(1px, -1px); }
+      40% { transform: translate(1px, 1px); }
+      50% { transform: translate(0, 0); }
+      60% { transform: translate(-1px, 1px); }
+      70% { transform: translate(1px, -1px); }
+      80% { transform: translate(-1px, -1px); }
+      90% { transform: translate(1px, 1px); }
+      100% { transform: translate(0, 0); }
+    }
+    @media (max-width: 768px) {
+      .scroll {
+        width: 90vw;
+      }
+      .caption {
+        font-size: 22px;
+      }
+      .intro {
+        font-size: 18px;
+      }
+      .title-block h1 {
+        font-size: 48px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="noise"></div>
+  <div class="title-block">
+    <h1>NO UTILITY COIN</h1>
+    <h2>The Project That Does Absolutely Nothing</h2>
+  </div>
+
+  <div class="intro">
+    <span style="font-size: 28px;">Introducing $NUC</span><br>
+    The most honest token in crypto.<br>
+    No roadmap. No whitepaper.<br>
+    Just vibes and memes.<br>
+    <span class="final-line">Scroll to waste your time wisely. 😁</span>
+  </div>
+<img src="images/scroll1.jpg" class="scroll" data-aos="fade-up" />
+<div class="caption" id="caption1">Day 9000 of waiting for utility. My bones upgraded to L2.</div>
+<img src="images/scroll2.jpg" class="scroll" data-aos="zoom-in" />
+<div class="caption" id="caption2">Fundamentals? Nah. I just hear voices when the chart blinks.</div>
+<img src="images/scroll3.jpg" class="scroll" data-aos="slide-right" />
+<div class="caption" id="caption3">Utility knocks. I slam the door and buy more nonsense.</div>
+<img src="images/scroll4.jpg" class="scroll" data-aos="flip-left" />
+<div class="caption" id="caption4">Whitepapers put me to sleep. Memes give me dreams.</div>
+<img src="images/scroll5.jpg" class="scroll" data-aos="fade-left" />
+<div class="caption" id="caption5">I did my research. It was stupid. I aped in.</div>
+<img src="images/scroll6.jpg" class="scroll" data-aos="zoom-in-up" />
+<div class="caption" id="caption6">The dev has no idea what’s happening. That’s bullish.</div>
+<img src="images/scroll7.jpg" class="scroll" data-aos="fade-right" />
+<div class="caption" id="caption7">Utility betrayed me. Memes paid my rent.</div>
+<img src="images/scroll8.jpg" class="scroll" data-aos="flip-up" />
+<div class="caption" id="caption8">I saw the light. It was a frog in a vortex.</div>
+<img src="images/scroll9.jpg" class="scroll" data-aos="fade-down" />
+<div class="caption" id="caption9">Down 99%. But I gained inner peace and frog memes.</div>
+<img src="images/scroll10.jpg" class="scroll" data-aos="slide-left" />
+<div class="caption" id="caption10">It does literally nothing. My portfolio is clapping.</div>
+<img src="images/scroll11.jpg" class="scroll" data-aos="zoom-out" />
+<div class="caption" id="caption11">Logo funny = instant conviction. Facts are irrelevant.</div>
+<img src="images/scroll12.jpg" class="scroll" data-aos="flip-right" />
+<div class="caption" id="caption12">Pitch decks make me yawn. $NUC makes me wheeze-laugh at 3AM.</div>
+<img src="images/scroll13.jpg" class="scroll" data-aos="fade-zoom-in" />
+<div class="caption" id="caption13">No roadmap. No team. Just that perfect giggle-to-rug ratio.</div>
+<img src="images/scroll14.jpg" class="scroll" data-aos="fade-up-right" />
+<div class="caption" id="caption14">I reached enlightenment after I stopped chasing use cases and started hoarding frog pics.</div>
+<img src="images/scroll15.jpg" class="scroll" data-aos="zoom-in-left" />
+<div class="caption" id="caption15">Rugged 7 times. But my aura’s undefeated.</div>
+
+  
+  
+  
+  <section style="margin: 60px auto 40px; max-width: 900px; text-align: center; padding: 0 20px;">
+    <p style="font-size: 24px; color: #ffffff99; font-family: 'Times New Roman', serif; line-height: 1.6;">
+      <strong>Disclaimer:</strong> Cryptocurrency investments carry significant risk and may result in the loss of your capital.
+      This website is for entertainment purposes only and contains purely meme-based content.
+      Nothing here constitutes financial advice. Always do your own research before participating in any project.
+    </p>
+  </section>
+
+  <div class="footer">
+    © 2025 $NUC. All rights wasted.
+  </div>
+
+  <a href="https://x.com/nuconsol" class="floating-btn">X</a>
+</body>
+</html>
